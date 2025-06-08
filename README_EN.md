@@ -16,6 +16,12 @@ Communication/Control:
 UART (USART1 configured as Virtual COM Port by ST-LINK)
 Physical buttons connected to GPIO pins (supported by EXTI interrupts).
 Power supply: 4xAA
+Connections to pins on the board are:
+controller buttons: PG5, PG6, PG7, PG8, PC9
+LEDs: PG2, PG3, PD14, PD15
+ADC pin: PF3
+5V power in: 5V
+power out to RC filter: VDD
 ⚙️ Features
 ✅ Full Tetris game logic: falling, moving, and rotating blocks.
 ✅ Collision detection with walls and other blocks.
