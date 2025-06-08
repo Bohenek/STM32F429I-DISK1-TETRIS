@@ -16,6 +16,11 @@ Komunikacja/Sterowanie:
 UART (USART1 skonfigurowany jako Virtual COM Port przez ST-LINK)
 Fizyczne przyciski podłączone do pinów GPIO (obsługa przez przerwania EXTI).
 Zasilanie: 4xAA
+przyciski kontrolera: PG5, PG6, PG7, PG8, PC9
+diody LED: PG2, PG3, PD14, PD15
+pin ADC: PF3
+zasilanie 5 V: 5 V
+wyjście zasilania do filtra RC: VDD
 ⚙️ Funkcjonalności
 ✅ Pełna logika gry Tetris: spadanie, przesuwanie i obracanie klocków.
 ✅ Wykrywanie kolizji ze ścianami i innymi klockami.
