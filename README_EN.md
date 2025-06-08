@@ -14,7 +14,7 @@ Programming: C (using the HAL library)
 Graphics library: afiskon/stm32-ili9341 for SPI display support  
 Communication/Control:  
 UART (USART1 configured as Virtual COM Port by ST-LINK)  
-Physical buttons connected to GPIO pins (supported by EXTI interrupts).  
+### Physical buttons connected to GPIO pins (supported by EXTI interrupts).  
 Power supply: 4xAA  
 Connections to pins on the board are:  
 controller buttons: PG5, PG6, PG7, PG8, PC9  
@@ -35,8 +35,8 @@ power out to RC filter: VDD
 ✅ Display graphics on an external SPI ILI9341 display.  
 ✅ Grid background.  
 ✅ Line clearing animation and bonus point display.  
-✅ Easter egg in the form of images on levels 4, 6, 8  
-✅ AA battery power supply after voltage reduction with filter diodes  
+✅ Easter egg in the form of images on levels 4, 6, 8.  
+✅ AA battery power supply after voltage reduction with filter diodes.  
 ✅ RC filter removing interference on GPIO lines.  
 ✅ Voltage divider for ADC to measure battery status.  
 ✅ LEDs showing current battery status.  
