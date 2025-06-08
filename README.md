@@ -1,4 +1,4 @@
-# Tetris na STM32 z Wyświetlaczem SPI: Adaptacja i Rozwój
+# Tetris na STM32 z Wyświetlaczem SPI: Adaptacja i Rozwój 🇵🇱
 Ten projekt to implementacja klasycznej gry Tetris na mikrokontrolerze STM32F429I-DISC1, wykorzystująca wyświetlacz LCD z kontrolerem ILI9341 podłączony przez interfejs SPI. 
 Sterowanie odbywa się za pomocą komend UART oraz fizycznych przycisków.
 ## Fundamenty Projektu  
@@ -16,9 +16,9 @@ Za obsługę grafiki i komunikację z wyświetlaczem LCD ILI9341 odpowiada bibli
 
 Użycie tej biblioteki było kluczowe dla renderowania grafiki na podłączonym module SPI.
 
-### [Bardziej szczegółowe Readme w języku polskim](https://github.com/Bohenek/STM32F429I-DISK1-TETRIS/blob/main/README_PL.md)
+### [Bardziej szczegółowe Readme w języku polskim 🇵🇱](https://github.com/Bohenek/STM32F429I-DISK1-TETRIS/blob/main/README_PL.md)
 
-# Tetris on STM32 with SPI Display: Adaptation and Development
+# Tetris on STM32 with SPI Display: Adaptation and Development 🇬🇧
 This project is an implementation of the classic Tetris game on the STM32F429I-DISC1 microcontroller, using an LCD display with an ILI9341 controller connected via the SPI interface. 
 Control is performed using UART commands and physical buttons.
 ## Project Fundamentals
@@ -36,4 +36,4 @@ The library is responsible for graphics handling and communication with the ILI9
 
 The use of this library was crucial for rendering graphics on the connected SPI module.
 
-### [More detailed Readme in english](https://github.com/Bohenek/STM32F429I-DISK1-TETRIS/blob/main/README_EN.md)
+### [More detailed Readme in english 🇬🇧](https://github.com/Bohenek/STM32F429I-DISK1-TETRIS/blob/main/README_EN.md)
