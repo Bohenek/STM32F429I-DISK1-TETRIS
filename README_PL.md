@@ -13,9 +13,9 @@ IDE: STM32CubeIDE\
 Programowanie: C (z wykorzystaniem biblioteki HAL)\
 Biblioteka Graficzna: afiskon/stm32-ili9341 dla obsługi wyświetlacza SPI\
 Komunikacja/Sterowanie:\
-UART (USART1 skonfigurowany jako Virtual COM Port przez ST-LINK)
+UART (USART1 skonfigurowany jako Virtual COM Port przez ST-LINK)\
+Zasilanie: 4xAA
 ### Fizyczne przyciski podłączone do pinów GPIO (obsługa przez przerwania EXTI).
-Zasilanie: 4xAA\
 przyciski kontrolera: PG5, PG6, PG7, PG8, PC9\
 diody LED: PG2, PG3, PD14, PD15\
 pin ADC: PF3\
