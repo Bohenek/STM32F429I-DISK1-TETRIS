@@ -13,9 +13,9 @@ IDE: STM32CubeIDE
 Programming: C (using the HAL library)  
 Graphics library: afiskon/stm32-ili9341 for SPI display support  
 Communication/Control:  
-UART (USART1 configured as Virtual COM Port by ST-LINK)  
-### Physical buttons connected to GPIO pins (supported by EXTI interrupts).  
-Power supply: 4xAA  
+UART (USART1 configured as Virtual COM Port by ST-LINK)\
+Power supply: 4xAA
+### Physical buttons connected to GPIO pins (supported by EXTI interrupts).   
 Connections to pins on the board are:  
 controller buttons: PG5, PG6, PG7, PG8, PC9  
 LEDs: PG2, PG3, PD14, PD15  
